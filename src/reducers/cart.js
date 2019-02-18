@@ -20,16 +20,16 @@ const cart = (state = initialState, action) => {
             localStorage.setItem('cart', JSON.stringify(state));
             return [...state];
         case types.REMOVE_CART_ITEM:
-            var { product1 } = action.item;
-            index = findIndex(state, product1);
+            var { product } = action.item;
+            index = findIndex(state, product);
             if(index !== -1){
                 state.splice(index, 1);
             }
             localStorage.setItem('cart', JSON.stringify(state));
             return [...state];
         case types.UPDATE_QUANTITY:
-            var { product2, value } = action;
-            index = findIndex(state, product2);
+            var { product, value } = action;
+            index = findIndex(state, product);
             if(index !== -1){
                 var newQuantity = state[index].quantity + value;
                 if(newQuantity > 0){
