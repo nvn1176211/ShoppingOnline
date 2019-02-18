@@ -1,0 +1,121 @@
+
+.m-r-5{
+  margin-right: 15px;
+}
+.cl-r{
+  color: red;
+}
+.h-a{
+  color: white;
+}
+.h-a:hover{
+  color: white;
+}
+.bo1{
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+}
+.sidenav{
+  background-color: rgb(92, 6, 88);
+  position: fixed;
+  height: 100%;
+  width: 0;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 2s;
+  padding-top: 60px;
+}
+.sidenav a{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav .cb{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#f-b-1{
+  font-size: 40px;
+  padding-right: 10px;
+}
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+.f-o-1{
+  background-color: rgb(52, 58, 64);
+  color: white;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.ms-1{
+  margin: 20px 150px;
+}
+.m-t-0{
+  margin-top: 0
+}
+.rating i{
+  color: orange;
+}
+.rating{
+  list-style-type: none;
+  padding: 0;
+}
+.rating li{
+  display: inline
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.i-c{
+  font-size: 40px;
+  color: white
+}
+.wi-100{
+  width: 100px;
+}
+.price{
+  color: red;
+  font-size: 20px;
+}
+.card-footer-1{
+  padding: 0.75rem 2rem;
+}
+.mo-1{
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+.p-d-5{
+ padding: 5px;
+}
+.mg-t20{
+  margin-top : 20px
+}
+.mg-20{
+  margin: 20px 0 40px 0; 
+}
+.btn1{
+  width: 50px;
+  line-height: 20px;
+  border-radius: 15px 0 0 15px;
+  border-right: 1px solid white;
+  font-weight: bold;
+}
+.btn2{
+  width: 50px;
+  line-height: 20px;
+  border-radius: 0 15px 15px 0;
+  font-weight: bold;
+}
